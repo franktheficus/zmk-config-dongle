@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: benvallack
-      url-base: https://github.com/benvallack
+    - name: franktheficus
+      url-base: https://github.com/franktheficus
   projects:
     - name: zmk
-      remote: benvallack
+      remote: franktheficus
       revision: with-tap-dance
       import: app/west.yml
   self:
