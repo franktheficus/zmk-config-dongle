@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: franktheficus
-      url-base: https://github.com/franktheficus
+    - name: slicemk
+      url-base: https://github.com/slicemk
   projects:
     - name: zmk
-      remote: franktheficus
-      revision: main
+      remote: slicemk
+      revision: dongle-pr
       import: app/west.yml
   self:
     path: config
